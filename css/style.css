@@ -1,0 +1,285 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	color: #434455;
+	background-color: #ffffff;
+}
+
+.header {
+	max-width: 100%;
+	height: 72px;
+}
+
+
+nav,
+.section-list,
+.head-container,
+.contact-info {
+	display: flex;
+	flex-direction: row;
+	height: inherit;
+}
+
+.home-link,
+.section-list,
+.main-tel {
+	height: 24px;
+}
+
+.home-link {
+	display: flex;
+	width: 115px;
+	margin-left: 156px;
+	margin-top: 24px;
+	padding: 0;
+}
+
+.section-list {
+	display: flex;
+	padding-left: 0;
+	margin-left: 76px;
+	margin-top: 24px;
+	gap: 40px;
+	width: 261px;
+}
+
+.mail-tel {
+	display: flex;
+	padding-left: 0;
+	margin-top: 24px;
+	margin-left: 332px;
+	gap: 40px;
+}
+
+
+.tit-container {
+	display: flex;
+	height: 600px;
+}
+
+.section-title {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0;
+	width: 496px;
+	align-content: center;
+}
+
+.button-class {
+	height: 56px;
+	display: flex;
+	padding: 16px 32px;
+	border-radius: 8px;
+	position: absolute;
+	margiN: 428px;
+}
+
+.about-container {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	margin-top: 120px;
+}
+
+.about-list {
+	display: flex;
+	flex-direction: row;
+	width: 1128px;
+	height: 104px;
+}
+
+.item-heading {
+	margin: 0;
+	padding: 0;
+}
+
+.list-item {
+	display: block;
+	flex-direction: row;
+	width: 264px;
+	height: 380px;
+
+}
+
+.item-heading,
+.item-text {
+	justify-content: center;
+}
+
+
+
+.header .home-link {
+	text-decoration: none;
+	font-family: "Raleway", sans-serif;
+	font-size: 18px;
+	line-height: 1.17;
+	letter-spacing: 0.03em;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #4D5AE5;
+}
+
+.header .home-link:hover,
+.header .home-link:focus {
+	color: #404b5f;
+}
+
+
+
+.header .studio-part {
+	color: #2e2f42;
+}
+
+.section-list,
+.mail-tel,
+.list-item {
+	list-style-type: none;
+}
+
+.section-list .nav-section {
+	text-decoration: none;
+	font-family: "Roboto";
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: #2e2f42;
+}
+
+/* list */
+.section-list .nav-section:hover,
+.section-list .nav-section:focus {
+	color: #404bbf;
+}
+
+.contact-info {
+	font-style: normal;
+}
+
+.contact-info .contact {
+	text-decoration: none;
+	font-family: "Roboto";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0.02em;
+	color: #434455;
+}
+
+.contact-info .contact:hover,
+.contact-info .contact:focus {
+	color: #404bbf;
+}
+
+
+
+.section-one .section-title {
+	font-family: "Roboto";
+	font-size: 56px;
+	font-weight: 700;
+	line-height: 1.07;
+	letter-spacing: 0.02em;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.section-one {
+	background-color: #2e2f42;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+
+}
+
+.button-class {
+	border: none;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px;
+	letter-spacing: 0.04em;
+	text-align: left;
+	color: #ffffff;
+	background-color: #4d5ae5;
+	cursor: pointer;
+}
+
+.button-class:hover,
+.button-class:focus {
+	background-color: #404bbf
+}
+
+.team-section {
+	background-color: #f4f4fd
+}
+
+.section-heading {
+	font-size: 36px;
+	line-height: 1.11;
+	text-align: center;
+	letter-spacing: 0.02em;
+	text-transform: capitalize;
+	color: #2e2f42;
+}
+
+.item-heading {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color: #2e2f42;
+}
+
+.item-text {
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+}
+
+.text-content {
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: #434455;
+}
+
+.list-item {
+	background-color: #ffffff;
+}
+
+.main-section {
+	background-color: #F4F4FD;
+}
+
+.footer {
+	font-family: "Roboto";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0.02em;
+	text-align: left;
+	color: #F4F4FD;
+	background-color: #2E2F42;
+}
+
+.footer .studio-part {
+	color: #F4F4FD;
+}
+
+.footer .home-link {
+	text-decoration: none;
+	font-family: "Raleway", sans-serif;
+	font-size: 18px;
+	line-height: 1.17;
+	letter-spacing: 0.54px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #4D5AE5;
+}
+
+.footer .home-link:focus,
+.footer .home-link:hover {
+	color: #404b5f;
+}
