@@ -5,8 +5,10 @@
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>WebStudio</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+		integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link
@@ -17,11 +19,11 @@
 
 <body>
 	<header class="header">
-		<div class="head-container">
-			<nav>
-				<a class="home-link" href="./index.html">Web<span class="studio-part">Studio</span></a>
+		<div class="container">
+			<nav class="nav-box">
+				<a class="logo" href="./index.html">Web<span class="studio-part">Studio</span></a>
 				<ul class="section-list">
-					<li><a href="" class="nav-section">Studio</a></li>
+					<li><a href="#" class="nav-section">Studio</a></li>
 					<li><a href="" class="nav-section">Portfolio</a></li>
 					<li><a href="" class="nav-section">Contacts</a></li>
 				</ul>
@@ -38,16 +40,16 @@
 	<main>
 		<!--s1-->
 
-		<div class="tit-container">
-			<section class="section-one">
+		<section class="section-one">
+			<div class="container">
 				<h1 class="section-title">Effective Solutions for Your Business</h1>
 				<button type="button" class="button-class">Order Service</button>
-			</section>
-		</div>
+			</div>
+		</section>
 		<!--ABOUT-US--><!--s2-->
-		<div class="about-container">
-			<section class="main-section">
-				<h2 hidden class="section-heading">peculiarities</h2>
+		<section class="main-section">
+			<div class="container">
+				<h2 class="visually-hidden">peculiarities</h2>
 				<ul class="about-list">
 					<li class="list-item">
 						<h3 class="item-heading">Strategy</h3>
@@ -78,78 +80,100 @@
 						</p>
 					</li>
 				</ul>
-			</section>
-		</div>
+			</div>
+		</section>
 		<!--TEAM--><!--s3-->
-		<div class="team-container">
-			<section class="team-section">
+		<section class="team-section">
+			<div class="container">
 				<h2 class="section-heading">Our Team</h2>
 				<ul class="team-list">
 					<li class="list-item">
 						<img src="./images/MarkGuerrero.jpg" alt="Mark Guerrero" width="264" />
-						<h3 class="item-heading">Mark Guerrero</h3>
-						<p class="item-text">Product Designer</p>
+						<div class="content-box">
+							<h3 class="item-heading">Mark Guerrero</h3>
+							<p class="item-text">Product Designer</p>
+						</div>
 					</li>
 					<li class="list-item">
 						<img src="./images/TomFord.jpg" alt="Tom Ford" width="264" />
-						<h3 class="item-heading">Tom Ford</h3>
-						<p class="item-text">Frontend Developer</p>
+						<div class="content-box">
+							<h3 class="item-heading">Tom Ford</h3>
+							<p class="item-text">Frontend Developer</p>
+						</div>
 					</li>
 					<li class="list-item">
 						<img src="./images/CamilaGarcia.jpg" alt="Camila Garcia" width="264" />
-						<h3 class="item-heading">Camila Garcia</h3>
-						<p class="item-text">Marketing</p>
+						<div class="content-box">
+							<h3 class="item-heading">Camila Garcia</h3>
+							<p class="item-text">Marketing</p>
+						</div>
 					</li>
 					<li class="list-item">
 						<img src="./images/DanielWilson.jpg" alt="Daniel Wilson" width="264" />
-						<h3 class="item-heading">Daniel Wilson</h3>
-						<p class="item-text">UI Designer</p>
+						<div class="content-box">
+							<h3 class="item-heading">Daniel Wilson</h3>
+							<p class="item-text">UI Designer</p>
+						</div>
 					</li>
 				</ul>
-			</section>
-		</div>
+			</div>
+		</section>
 		<!--PORTFOLIO--><!--s4-->
-		<div class="our-container">
-			<section>
+
+		<section class="portfolio-section">
+			<div class="container">
 				<h2 class="section-heading">Our Portfolio</h2>
-				<ul>
+				<ul class="portfolio-list">
 					<li class="list-item">
 						<img src="./images/app.jpg" alt="Banking App" width="360" height="300">
-						<h3 class="item-heading">Banking App</h3>
-						<p class="item-text">App</p>
+						<div class="portfolio-box">
+							<h3 class="item-heading">Banking App</h3>
+							<p class="item-text">App</p>
+						</div>
 					</li>
 					<li class="list-item">
 						<img src="./images/marceting.jpg" alt="Cashless Payment" width="360" height="300">
-						<h3 class="item-heading">Cashless Payment</h3>
-						<p class="item-text">Marketing</p>
+						<div class="portfolio-box">
+							<h3 class="item-heading">Cashless Payment</h3>
+							<p class="item-text">Marketing</p>
+						</div>
 					</li>
 					<li class="list-item">
 						<img src="./images/laptop.jpg" alt="Meditation App" width="360" height="300">
-						<h3 class="item-heading">Meditation App</h3>
-						<p class="item-text">App</p>
+						<div class="portfolio-box">
+							<h3 class="item-heading">Meditation App</h3>
+							<p class="item-text">App</p>
+						</div>
 					</li>
 					<li class="list-item">
 						<img src="./images/car.jpg" alt="Taxi Service" width="360" height="300">
-						<h3 class="item-heading">Taxi Service</h3>
-						<p class="item-text">Marketing</p>
+						<div class="portfolio-box">
+							<h3 class="item-heading">Taxi Service</h3>
+							<p class="item-text">Marketing</p>
+						</div>
 					</li>
 					<li class="list-item">
 						<img src="./images/phon.jpg" alt="Screen Illustrations" width="360" height="300">
-						<h3 class="item-heading">Screen Illustrations</h3>
-						<p class="item-text">Design</p>
+						<div class="portfolio-box">
+							<h3 class="item-heading">Screen Illustrations</h3>
+							<p class="item-text">Design</p>
+						</div>
 					</li>
 					<li class="list-item">
 						<img src="./images/gerl.jpg" alt="Online Courses" width="360" height="300">
-						<h3 class="item-heading">Online Courses</h3>
-						<p class="item-text">Marketing</p>
+						<div class="portfolio-box">
+							<h3 class="item-heading">Online Courses</h3>
+							<p class="item-text">Marketing</p>
+						</div>
 					</li>
 				</ul>
-			</section>
-		</div>
+			</div>
+		</section>
+
 	</main>
 	<footer class="footer">
-		<div class="footer-container">
-			<a href="./index.html" class="home-link">Web<span class="studio-part">Studio</span></a>
+		<div class="container">
+			<a href="./index.html" class="footer-logo">Web<span class="studio-part">Studio</span></a>
 			<p class="footp">
 				Increase the flow of customers and sales for your business with digital
 				marketing & growth solutions.
@@ -157,6 +181,5 @@
 		</div>
 	</footer>
 </body>
-commit test
 
 </html>
