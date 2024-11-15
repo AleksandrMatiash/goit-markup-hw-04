@@ -24,17 +24,17 @@ body {
 	background-color: #ffffff;
 }
 
+img {
+	display: block;
+}
+
+.visually-hidden {}
+
 .container {
 	width: 1158px;
 	margin: 0 auto;
 	padding: 0 15px;
 }
-
-
-
-
-
-
 
 .head-container {
 	display: flex;
@@ -202,14 +202,14 @@ body {
 
 
 .ul-tree-section {
+
 	display: flex;
 	gap: 24px;
 }
 
 .ul-tree-section .item-list {
 	width: calc((100% - 72px) / 4);
-	border-radius: 0 0 4px 4px;
-
+	border-radius: 0px 0px 4px 4px;
 }
 
 .worker-container {
@@ -295,6 +295,7 @@ body {
 	letter-spacing: 0.02em;
 	text-transform: capitalize;
 	color: #2e2f42;
+	padding: 120px 0 120px 0
 }
 
 .item-text {
