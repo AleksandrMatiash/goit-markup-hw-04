@@ -28,7 +28,17 @@ img {
 	display: block;
 }
 
-.visually-hidden {}
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	padding: 0;
+	border: 0;
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+	white-space: nowrap;
+}
 
 .container {
 	width: 1158px;
@@ -200,16 +210,18 @@ img {
 	margin-bottom: 72px;
 }
 
+.heading-three {
+	margin-bottom: 8px;
+}
 
 .ul-tree-section {
-
 	display: flex;
 	gap: 24px;
 }
 
 .ul-tree-section .item-list {
 	width: calc((100% - 72px) / 4);
-	border-radius: 0px 0px 4px 4px;
+	border-radius: 0 0 4px 4px;
 }
 
 .worker-container {
@@ -237,6 +249,10 @@ img {
 	border-top: none;
 	margin-bottom: 8px;
 
+}
+
+.portfolio-container .heading-three {
+	margin-bottom: 8px;
 }
 
 .worker-container .heading-three {
