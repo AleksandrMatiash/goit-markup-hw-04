@@ -219,7 +219,7 @@ img {
 	gap: 24px;
 }
 
-.ul-tree-section .item-list {
+.ul-tree-section .list-item {
 	width: calc((100% - 72px) / 4);
 	border-radius: 0 0 4px 4px;
 }
@@ -228,7 +228,7 @@ img {
 	padding: 32px 0;
 }
 
-.ul-tree-section .item-list:last-child {
+.ul-tree-section .list-item:last-child {
 	margin-right: 0;
 }
 
