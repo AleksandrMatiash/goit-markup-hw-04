@@ -360,6 +360,7 @@ img {
 }
 
 .list-item-four:hover {
+	transform: translateY(0%);
 	box-shadow: 0px 2px 1px 0px #2E2F4214, 0px 1px 1px 0px #2E2F4229, 0px 1px 6px 0px #2E2F4214;
 }
 
@@ -410,7 +411,9 @@ img {
 	letter-spacing: 0.02em;
 	text-align: left;
 	color: #F4F4FD;
-	max-width: 264px
+	max-width: 264px;
+	margin-bottom: 16px;
+
 }
 
 .svg-icon {
@@ -474,6 +477,30 @@ img {
 	background-color: #404bbf;
 }
 
+.a-message-footer {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	background-color: #4d5ae5;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.a-message-footer {
+	background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.a-message-footer:hover,
+.a-message-footer:focus {
+	background-color: #31d0aa;
+}
+
+.svg-message-footer {
+	fill: #f4f4fd;
+}
+
 .svg-message {
 	fill: #f4f4fd;
 
@@ -503,10 +530,12 @@ img {
 
 .footer-container {
 	display: flex;
+	align-items: baseline;
+
 }
 
 .footer-logo-text-container {
-	padding-right: 120px;
+	margin-right: 120px;
 }
 
 .overlay {
