@@ -96,6 +96,7 @@ img {
 	width: 100%;
 	border-radius: 2px;
 	background-color: #404bbf;
+	color: #404bbf;
 
 }
 
@@ -510,7 +511,7 @@ img {
 	letter-spacing: 0.02em;
 	color: #FFFFFF;
 	display: inline-block;
-	padding-bottom: 8px;
+	margin-bottom: 16px;
 }
 
 .footer-message-block {
