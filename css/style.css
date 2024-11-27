@@ -436,10 +436,7 @@ img {
 
 
 
-.messages-container {
-	display: flex;
-	justify-content: center;
-}
+
 
 .ul-messages {
 	display: flex;
